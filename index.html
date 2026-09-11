@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mundial Llantas | Llantas, accesorios y mantenimiento para tu carro</title>
+  <meta name="description"
+    content="Mundial Llantas: venta de llantas, rines, accesorios y repuestos para automóviles, además de servicio de alineación, balanceo, frenos y cambio de aceite. Cotiza por WhatsApp.">
+  <link rel="icon" href="assets/img/llanta.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#catalogo">Saltar al catálogo</a>
+
+  <!-- ══════════════════════════ BARRA SUPERIOR ══════════════════════════ -->
+  <div class="topbar">
+    <div class="wrap topbar__in">
+      <span class="topbar__item" data-cfg="horario-corto">Lun a Vie 8:00 a.m. - 6:00 p.m.</span>
+      <span class="topbar__sep">·</span>
+      <a class="topbar__item" id="topbar-tel" href="#contacto">Llámanos</a>
+      <span class="topbar__badge">Sitio informativo · No vendemos en línea</span>
+    </div>
+  </div>
+
+  <!-- ═════════════════════════════ HEADER ═══════════════════════════════ -->
+  <header class="header" id="header">
+    <div class="wrap header__in">
+      <a class="logo" href="#inicio" aria-label="Mundial Llantas, ir al inicio">
+        <img src="assets/img/llanta.svg" alt="" class="logo__mark" width="42" height="42">
+        <span class="logo__text">Mundial<strong>Llantas</strong></span>
+      </a>
+
+      <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Menú principal">
+        <a href="#inicio" class="nav__link">Inicio</a>
+        <a href="#catalogo" class="nav__link">Catálogo</a>
+        <a href="#servicios" class="nav__link">Servicios</a>
+        <a href="#nosotros" class="nav__link">Nosotros</a>
+        <a href="#contacto" class="nav__link">Contacto</a>
+        <a href="#" class="btn btn--sm btn--primary" id="nav-wa">Cotizar por WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ══════════════════════════════ HERO ════════════════════════════════ -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="wrap hero__in">
+        <div class="hero__copy">
+          <span class="eyebrow">Llantas · Rines · Accesorios · Mantenimiento</span>
+          <h1 class="hero__title">
+            Tu carro <span class="hl">bien calzado</span><br>y listo para la vía
+          </h1>
+          <p class="hero__text">
+            En <strong>Mundial Llantas</strong> encuentras las mejores marcas de llantas,
+            rines, accesorios y repuestos, además del servicio técnico para dejar tu
+            vehículo a punto. Consulta el catálogo y cotiza en minutos.
+          </p>
+          <div class="hero__actions">
+            <a href="#" class="btn btn--primary btn--lg" id="hero-wa">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M12.04 2A9.9 9.9 0 0 0 2.1 11.9c0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.74 1.2h.01A9.9 9.9 0 0 0 22 11.92 9.9 9.9 0 0 0 12.04 2m0 1.8a8.1 8.1 0 0 1 8.12 8.12 8.1 8.1 0 0 1-8.12 8.11c-1.5 0-2.96-.4-4.24-1.16l-.3-.18-3.14.82.84-3.06-.2-.32a8.06 8.06 0 0 1-1.24-4.3 8.1 8.1 0 0 1 8.28-8.03m-3.2 4.3c-.16 0-.42.06-.64.3-.22.24-.85.83-.85 2.02s.87 2.34.99 2.5c.12.16 1.7 2.72 4.18 3.7 2.06.82 2.48.66 2.93.62.45-.04 1.45-.6 1.66-1.17.2-.58.2-1.07.14-1.17-.06-.1-.22-.16-.46-.28-.24-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.24-.63.8-.77.96-.14.16-.28.18-.52.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.44-1.35-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.34-.76-1.83-.19-.44-.38-.4-.53-.41z" />
+              </svg>
+              Cotizar por WhatsApp
+            </a>
+            <a href="#catalogo" class="btn btn--ghost btn--lg">Ver catálogo</a>
+          </div>
+
+          <ul class="hero__points">
+            <li>Asesoría en la medida exacta de tu llanta</li>
+            <li>Marcas originales con garantía</li>
+            <li>Montaje, balanceo y alineación en el local</li>
+          </ul>
+        </div>
+
+        <div class="hero__art" aria-hidden="true">
+          <div class="hero__ring"></div>
+          <img src="assets/img/llanta.svg" alt="" class="hero__tire">
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════ STATS ═══════════════════════════════ -->
+    <section class="stats" aria-label="Cifras de la empresa">
+      <div class="wrap stats__grid" id="stats-grid"><!-- generado por JS --></div>
+    </section>
+
+    <!-- ═══════════════════════════ CATEGORÍAS ═════════════════════════════ -->
+    <section class="section" id="lineas">
+      <div class="wrap">
+        <header class="section__head">
+          <span class="eyebrow">Nuestras líneas</span>
+          <h2 class="section__title">Todo para tu vehículo en un solo lugar</h2>
+          <p class="section__sub">Selecciona una línea y te llevamos directo al catálogo filtrado.</p>
+        </header>
+
+        <div class="lineas">
+          <button class="linea" data-goto="llantas">
+            <img src="assets/img/llanta.svg" alt="" width="64" height="64">
+            <h3>Llantas</h3>
+            <p>Ciudad, carretera y todo terreno en todas las medidas.</p><span class="linea__cta">Ver llantas →</span>
+          </button>
+          <button class="linea" data-goto="rines">
+            <img src="assets/img/rin.svg" alt="" width="64" height="64">
+            <h3>Rines</h3>
+            <p>Deportivos y de camioneta de 15" a 18".</p><span class="linea__cta">Ver rines →</span>
+          </button>
+          <button class="linea" data-goto="accesorios">
+            <img src="assets/img/accesorio.svg" alt="" width="64" height="64">
+            <h3>Accesorios</h3>
+            <p>Iluminación, tapetes, kits de carretera y más.</p><span class="linea__cta">Ver accesorios →</span>
+          </button>
+          <button class="linea" data-goto="repuestos">
+            <img src="assets/img/bateria.svg" alt="" width="64" height="64">
+            <h3>Repuestos</h3>
+            <p>Baterías, aceites, filtros, frenos y suspensión.</p><span class="linea__cta">Ver repuestos →</span>
+          </button>
+          <button class="linea" data-goto="servicios">
+            <img src="assets/img/servicio.svg" alt="" width="64" height="64">
+            <h3>Servicios</h3>
+            <p>Alineación, balanceo, frenos y cambio de aceite.</p><span class="linea__cta">Ver servicios →</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ CATÁLOGO ═══════════════════════════════ -->
+    <section class="section section--alt" id="catalogo">
+      <div class="wrap">
+        <header class="section__head">
+          <span class="eyebrow">Catálogo</span>
+          <h2 class="section__title">Encuentra lo que necesitas</h2>
+          <p class="section__sub">
+            Usa los filtros para llegar a tu producto. Cuando lo tengas,
+            pulsa <strong>Cotizar</strong> y te escribimos por WhatsApp con el precio final.
+          </p>
+        </header>
+
+        <!-- ---------- Chips de categoría ---------- -->
+        <div class="chips" id="chips" role="group" aria-label="Filtrar por categoría"></div>
+
+        <div class="catalogo">
+
+          <!-- ---------- Panel de filtros ---------- -->
+          <aside class="filtros" id="filtros">
+            <div class="filtros__head">
+              <h3>Filtros</h3>
+              <button class="link-btn" id="limpiar" type="button">Limpiar todo</button>
+            </div>
+
+            <div class="campo">
+              <label for="q">Buscar</label>
+              <div class="campo__search">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                  <path fill="currentColor"
+                    d="M10 2a8 8 0 1 0 4.9 14.32l5.39 5.39 1.42-1.42-5.39-5.39A8 8 0 0 0 10 2m0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12" />
+                </svg>
+                <input type="search" id="q" placeholder="Ej: Michelin, batería, 205/55..." autocomplete="off">
+              </div>
+            </div>
+
+            <div class="campo">
+              <label for="f-marca">Marca</label>
+              <select id="f-marca">
+                <option value="">Todas las marcas</option>
+              </select>
+            </div>
+
+            <fieldset class="campo campo--medidas" id="medidas">
+              <legend>Medida de la llanta</legend>
+              <p class="campo__hint">Está en el costado de tu llanta. Ej: <b>205/55 R16</b></p>
+              <div class="medidas__row">
+                <label class="medida">
+                  <span>Ancho</span>
+                  <select id="f-ancho">
+                    <option value="">--</option>
+                  </select>
+                </label>
+                <span class="medida__sep">/</span>
+                <label class="medida">
+                  <span>Perfil</span>
+                  <select id="f-perfil">
+                    <option value="">--</option>
+                  </select>
+                </label>
+                <span class="medida__sep">R</span>
+                <label class="medida">
+                  <span>Rin</span>
+                  <select id="f-rin">
+                    <option value="">--</option>
+                  </select>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="campo">
+              <label for="f-precio">Precio máximo: <b id="precio-val">$0</b></label>
+              <input type="range" id="f-precio" min="0" max="1000000" step="10000" value="1000000">
+              <div class="rango__lim"><span>$0</span><span id="precio-top">$1.000.000</span></div>
+            </div>
+
+            <div class="campo">
+              <label for="f-orden">Ordenar por</label>
+              <select id="f-orden">
+                <option value="rel">Relevancia</option>
+                <option value="menor">Precio: menor a mayor</option>
+                <option value="mayor">Precio: mayor a menor</option>
+                <option value="az">Nombre: A - Z</option>
+              </select>
+            </div>
+
+            <p class="filtros__nota" id="nota-precios"></p>
+          </aside>
+
+          <!-- ---------- Resultados ---------- -->
+          <div class="resultados">
+            <div class="resultados__bar">
+              <p id="contador" aria-live="polite">Mostrando todos los productos</p>
+              <button class="btn btn--ghost btn--sm filtros__toggle" id="filtros-toggle" type="button">Filtros</button>
+            </div>
+
+            <div class="grid" id="grid"></div>
+
+            <div class="vacio" id="vacio" hidden>
+              <img src="assets/img/accesorio.svg" alt="" width="72" height="72">
+              <h3>No encontramos productos con esos filtros</h3>
+              <p>Prueba con menos filtros o escríbenos: conseguimos la medida que necesitas.</p>
+              <div class="vacio__acciones">
+                <button class="btn btn--ghost" id="vacio-limpiar" type="button">Limpiar filtros</button>
+                <a class="btn btn--primary" href="#" id="vacio-wa">Preguntar por WhatsApp</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ SERVICIOS ══════════════════════════════ -->
+    <section class="section" id="servicios">
+      <div class="wrap">
+        <header class="section__head">
+          <span class="eyebrow">Taller</span>
+          <h2 class="section__title">Servicio de mantenimiento</h2>
+          <p class="section__sub">Técnicos con experiencia y equipos computarizados. Agenda tu cita por WhatsApp.</p>
+        </header>
+
+        <div class="servicios">
+          <article class="serv">
+            <img src="assets/img/servicio.svg" alt="" width="56" height="56">
+            <h3>Alineación y balanceo</h3>
+            <p>Corregimos la dirección y eliminamos las vibraciones para que tus llantas duren más.</p>
+          </article>
+          <article class="serv">
+            <img src="assets/img/aceite.svg" alt="" width="56" height="56">
+            <h3>Cambio de aceite y filtros</h3>
+            <p>Aceite mineral, semisintético o sintético según el motor y el kilometraje.</p>
+          </article>
+          <article class="serv">
+            <img src="assets/img/freno.svg" alt="" width="56" height="56">
+            <h3>Sistema de frenos</h3>
+            <p>Revisión de pastillas, discos y líquido, con cambio el mismo día.</p>
+          </article>
+          <article class="serv">
+            <img src="assets/img/bateria.svg" alt="" width="56" height="56">
+            <h3>Batería y eléctrico</h3>
+            <p>Prueba de carga, diagnóstico electrónico e instalación sin costo adicional.</p>
+          </article>
+          <article class="serv">
+            <img src="assets/img/llanta.svg" alt="" width="56" height="56">
+            <h3>Montaje y rotación</h3>
+            <p>Montaje profesional, rotación programada y reparación de pinchazos.</p>
+          </article>
+          <article class="serv">
+            <img src="assets/img/luz.svg" alt="" width="56" height="56">
+            <h3>Iluminación y accesorios</h3>
+            <p>Instalación de luces LED, exploradoras y accesorios de seguridad.</p>
+          </article>
+        </div>
+
+        <div class="cta-banda">
+          <div>
+            <h3>¿No sabes qué llanta le sirve a tu carro?</h3>
+            <p>Cuéntanos marca, línea y modelo. Te decimos la medida correcta y te cotizamos al instante.</p>
+          </div>
+          <a class="btn btn--primary btn--lg" href="#" id="banda-wa">Escribir por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ NOSOTROS ═══════════════════════════════ -->
+    <section class="section section--alt" id="nosotros">
+      <div class="wrap nosotros">
+        <div class="nosotros__copy">
+          <span class="eyebrow">Nosotros</span>
+          <h2 class="section__title">Una marca que rueda contigo</h2>
+          <p>
+            <strong>Mundial Llantas</strong> nació como un negocio familiar dedicado a la venta
+            de llantas y hoy es un punto integral de repuestos, accesorios y mantenimiento
+            automotriz. Trabajamos con marcas reconocidas y damos asesoría honesta:
+            te recomendamos lo que tu carro realmente necesita.
+          </p>
+          <ul class="check">
+            <li>Productos originales con garantía del fabricante</li>
+            <li>Precios competitivos y opciones para todo presupuesto</li>
+            <li>Atención personalizada antes, durante y después de la compra</li>
+            <li>Servicio técnico en el mismo local</li>
+          </ul>
+          <a class="btn btn--primary" href="#contacto">Conoce dónde estamos</a>
+        </div>
+        <div class="nosotros__art" aria-hidden="true">
+          <img src="assets/img/rin.svg" alt="" class="nos-img nos-img--1">
+          <img src="assets/img/freno.svg" alt="" class="nos-img nos-img--2">
+          <img src="assets/img/servicio.svg" alt="" class="nos-img nos-img--3">
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ CONTACTO ═══════════════════════════════ -->
+    <section class="section" id="contacto">
+      <div class="wrap">
+        <header class="section__head">
+          <span class="eyebrow">Contacto</span>
+          <h2 class="section__title">Cotiza o pide más información</h2>
+          <p class="section__sub">Respondemos rápido por WhatsApp. También puedes llamarnos o visitarnos.</p>
+        </header>
+
+        <div class="contacto">
+          <a class="tarjeta tarjeta--wa" href="#" id="card-wa">
+            <span class="tarjeta__ico">
+              <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M12.04 2A9.9 9.9 0 0 0 2.1 11.9c0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.74 1.2h.01A9.9 9.9 0 0 0 22 11.92 9.9 9.9 0 0 0 12.04 2m0 1.8a8.1 8.1 0 0 1 8.12 8.12 8.1 8.1 0 0 1-8.12 8.11c-1.5 0-2.96-.4-4.24-1.16l-.3-.18-3.14.82.84-3.06-.2-.32a8.06 8.06 0 0 1-1.24-4.3 8.1 8.1 0 0 1 8.28-8.03m-3.2 4.3c-.16 0-.42.06-.64.3-.22.24-.85.83-.85 2.02s.87 2.34.99 2.5c.12.16 1.7 2.72 4.18 3.7 2.06.82 2.48.66 2.93.62.45-.04 1.45-.6 1.66-1.17.2-.58.2-1.07.14-1.17-.06-.1-.22-.16-.46-.28-.24-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.24-.63.8-.77.96-.14.16-.28.18-.52.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.44-1.35-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.34-.76-1.83-.19-.44-.38-.4-.53-.41z" />
+              </svg>
+            </span>
+            <div>
+              <h3>WhatsApp</h3>
+              <p id="txt-wa">Escríbenos ahora</p>
+            </div>
+          </a>
+
+          <a class="tarjeta" href="#" id="card-tel">
+            <span class="tarjeta__ico">
+              <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1z" />
+              </svg>
+            </span>
+            <div>
+              <h3>Teléfono</h3>
+              <p id="txt-tel">—</p>
+            </div>
+          </a>
+
+          <a class="tarjeta" href="#" id="card-mapa" target="_blank" rel="noopener">
+            <span class="tarjeta__ico">
+              <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7m0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5" />
+              </svg>
+            </span>
+            <div>
+              <h3>Punto de venta</h3>
+              <p id="txt-dir">—</p>
+            </div>
+          </a>
+
+          <div class="tarjeta tarjeta--static">
+            <span class="tarjeta__ico">
+              <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20m0 2a8 8 0 1 1 0 16 8 8 0 0 1 0-16m-1 3v6l5 3 .8-1.4-4.3-2.5V7z" />
+              </svg>
+            </span>
+            <div>
+              <h3>Horario</h3>
+              <p id="txt-horario">—</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulario que arma un mensaje de WhatsApp (no envía datos a ningún servidor) -->
+        <form class="form" id="form" novalidate>
+          <h3>Cuéntanos qué necesitas</h3>
+          <p class="form__sub">Llena los campos y el botón abrirá WhatsApp con el mensaje ya escrito.</p>
+          <div class="form__row">
+            <label>Nombre
+              <input type="text" id="f-nombre" placeholder="Tu nombre" required>
+            </label>
+            <label>Vehículo
+              <input type="text" id="f-vehiculo" placeholder="Ej: Mazda 3 2018">
+            </label>
+          </div>
+          <label>¿Qué necesitas?
+            <textarea id="f-msg" rows="3" placeholder="Ej: Cotización de 4 llantas 205/55 R16 y alineación"
+              required></textarea>
+          </label>
+          <button class="btn btn--primary btn--lg" type="submit">Enviar por WhatsApp</button>
+          <p class="form__aviso">
+            Este formulario no guarda ni envía datos a ningún servidor: solo abre WhatsApp con tu mensaje.
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════════════ FOOTER ══════════════════════════════ -->
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <div class="footer__col">
+        <a class="logo" href="#inicio">
+          <img src="assets/img/llanta.svg" alt="" class="logo__mark" width="38" height="38">
+          <span class="logo__text">Mundial<strong>Llantas</strong></span>
+        </a>
+        <p class="footer__desc" id="foot-eslogan">—</p>
+        <div class="redes" id="redes"></div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Navegación</h4>
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Líneas</h4>
+        <a href="#catalogo" data-goto="llantas">Llantas</a>
+        <a href="#catalogo" data-goto="rines">Rines</a>
+        <a href="#catalogo" data-goto="accesorios">Accesorios</a>
+        <a href="#catalogo" data-goto="repuestos">Repuestos</a>
+        <a href="#catalogo" data-goto="servicios">Servicios</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Contacto</h4>
+        <p id="foot-dir">—</p>
+        <p id="foot-tel">—</p>
+        <p id="foot-mail">—</p>
+        <p id="foot-horario">—</p>
+      </div>
+    </div>
+
+    <div class="wrap footer__legal">
+      <p id="foot-aviso">—</p>
+      <p>&copy; <span id="anio"></span> Mundial Llantass. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="wa-float" href="#" id="wa-float" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true">
+      <path fill="currentColor"
+        d="M12.04 2A9.9 9.9 0 0 0 2.1 11.9c0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.74 1.2h.01A9.9 9.9 0 0 0 22 11.92 9.9 9.9 0 0 0 12.04 2m0 1.8a8.1 8.1 0 0 1 8.12 8.12 8.1 8.1 0 0 1-8.12 8.11c-1.5 0-2.96-.4-4.24-1.16l-.3-.18-3.14.82.84-3.06-.2-.32a8.06 8.06 0 0 1-1.24-4.3 8.1 8.1 0 0 1 8.28-8.03m-3.2 4.3c-.16 0-.42.06-.64.3-.22.24-.85.83-.85 2.02s.87 2.34.99 2.5c.12.16 1.7 2.72 4.18 3.7 2.06.82 2.48.66 2.93.62.45-.04 1.45-.6 1.66-1.17.2-.58.2-1.07.14-1.17-.06-.1-.22-.16-.46-.28-.24-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.24-.63.8-.77.96-.14.16-.28.18-.52.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.44-1.35-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.34-.76-1.83-.19-.44-.38-.4-.53-.41z" />
+    </svg>
+    <span>Cotizar</span>
+  </a>
+
+  <!-- Ventana de detalle del producto -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal__fondo" data-cerrar></div>
+    <div class="modal__caja" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+      <button class="modal__x" data-cerrar aria-label="Cerrar">&times;</button>
+      <div class="modal__cuerpo" id="modal-cuerpo"></div>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/productos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

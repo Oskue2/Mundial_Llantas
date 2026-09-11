@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Llanta">
+  <defs><radialGradient id="g" cx="50%" cy="40%" r="70%"><stop offset="0" stop-color="#2b2f38"/><stop offset="1" stop-color="#121419"/></radialGradient></defs>
+  <circle cx="100" cy="100" r="86" fill="url(#g)"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#3a3f4b" stroke-width="4"/>
+  <g stroke="#0d0f13" stroke-width="7" stroke-linecap="round">
+    <path d="M100 16v22M100 162v22M16 100h22M162 100h22M40 40l16 16M144 144l16 16M160 40l-16 16M56 144l-16 16"/>
+  </g>
+  <circle cx="100" cy="100" r="56" fill="#171a20" stroke="#454b58" stroke-width="3"/>
+  <circle cx="100" cy="100" r="40" fill="#c9ced9"/>
+  <circle cx="100" cy="100" r="40" fill="none" stroke="#8f96a3" stroke-width="2"/>
+  <g fill="#171a20"><circle cx="100" cy="76" r="5"/><circle cx="122" cy="92" r="5"/><circle cx="114" cy="118" r="5"/><circle cx="86" cy="118" r="5"/><circle cx="78" cy="92" r="5"/></g>
+  <circle cx="100" cy="100" r="11" fill="#F5A623"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Filtro">
+  <rect x="54" y="40" width="92" height="120" rx="16" fill="#1f232b" stroke="#3a3f4b" stroke-width="4"/>
+  <rect x="54" y="40" width="92" height="26" rx="13" fill="#F5A623"/>
+  <g stroke="#454b58" stroke-width="6" stroke-linecap="round">
+    <path d="M72 86h56M72 104h56M72 122h56M72 140h56"/>
+  </g>
+</svg>
