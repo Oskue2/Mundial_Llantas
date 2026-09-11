@@ -92,9 +92,10 @@
     const nombres = { instagram: 'Instagram', facebook: 'Facebook', tiktok: 'TikTok' };
     $('#redes').innerHTML = Object.keys(ICONOS)
       .filter((r) => CONFIG[r])
-      .map((r) => '<a class="red" href="' + CONFIG[r] + '" target="_blank" rel="noopener" ' +
-        'aria-label="' + nombres[r] + '"><svg viewBox="0 0 24 24" width="20" height="20">' +
-        ICONOS[r] + '</svg></a>')
+      .map((r) => '<a class="red" data-red="' + r + '" href="' + CONFIG[r] + '" ' +
+        'target="_blank" rel="noopener" title="' + nombres[r] + '" ' +
+        'aria-label="' + nombres[r] + '"><svg viewBox="0 0 24 24" width="20" height="20" ' +
+        'aria-hidden="true" focusable="false">' + ICONOS[r] + '</svg></a>')
       .join('');
   }
 
