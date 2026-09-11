@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Iluminación">
+  <path d="M40 62h56c34 0 60 16 60 38s-26 38-60 38H40z" fill="#c9ced9" stroke="#8f96a3" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M56 78h40c22 0 38 10 38 22s-16 22-38 22H56z" fill="#F5A623"/>
+  <g stroke="#F5A623" stroke-width="7" stroke-linecap="round"><path d="M168 74l22-12M172 100h24M168 126l22 12"/></g>
+</svg>

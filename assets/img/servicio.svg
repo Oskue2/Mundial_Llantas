@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Servicio">
+  <circle cx="100" cy="100" r="80" fill="#1f232b" stroke="#3a3f4b" stroke-width="4"/>
+  <path d="M100 34l14 12h20l4 20 16 12-6 20 10 18-14 14-2 20-20 4-12 16-16-10-20 6-8-18-18-8 2-20-14-14 12-16-4-20 20-6 8-18z" fill="none" stroke="#F5A623" stroke-width="5" stroke-linejoin="round" opacity=".35"/>
+  <circle cx="100" cy="100" r="36" fill="none" stroke="#c9ced9" stroke-width="6"/>
+  <circle cx="100" cy="100" r="12" fill="#F5A623"/>
+</svg>

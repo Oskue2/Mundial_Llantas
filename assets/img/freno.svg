@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Frenos">
+  <circle cx="96" cy="100" r="74" fill="#c9ced9" stroke="#8f96a3" stroke-width="4"/>
+  <g fill="#171a20" opacity=".55">
+    <circle cx="96" cy="56" r="5"/><circle cx="132" cy="72" r="5"/><circle cx="140" cy="112" r="5"/>
+    <circle cx="112" cy="140" r="5"/><circle cx="70" cy="140" r="5"/><circle cx="52" cy="112" r="5"/><circle cx="60" cy="72" r="5"/>
+  </g>
+  <circle cx="96" cy="100" r="30" fill="#1f232b" stroke="#3a3f4b" stroke-width="4"/>
+  <circle cx="96" cy="100" r="10" fill="#F5A623"/>
+  <path d="M138 46c26 12 34 44 26 74-6 22-22 34-22 34l-22-10s18-14 22-34c5-24-4-50-4-50z" fill="#F5A623" stroke="#141720" stroke-width="4" stroke-linejoin="round"/>
+</svg>
