@@ -67,6 +67,10 @@
 
     // Dirección, mapa y horario
     $('#card-mapa').href = CONFIG.mapa;
+    $('#mapa-link').href = CONFIG.mapa;
+    $('#mapa-dir').textContent = CONFIG.direccion + ' · ' + CONFIG.ciudad;
+    $('#mapa-frame').src = 'https://maps.google.com/maps?q=' +
+      encodeURIComponent(CONFIG.coordenadas) + '&z=17&hl=es&output=embed';
     $('#txt-dir').textContent = CONFIG.direccion + ' · ' + CONFIG.ciudad;
     $('#foot-dir').textContent = CONFIG.direccion + ', ' + CONFIG.ciudad;
     $('#txt-horario').textContent = CONFIG.horario;

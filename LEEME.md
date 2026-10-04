@@ -30,6 +30,7 @@ Abre `js/config.js` con el Bloc de notas o VS Code y cambia:
 | `correo` | Correo de contacto |
 | `direccion`, `ciudad`, `horario` | Datos del punto de venta |
 | `mapa` | Enlace de Google Maps del local |
+| `coordenadas` | Latitud,longitud del local para el mapa de Contacto |
 | `instagram`, `facebook`, `tiktok` | URL de cada red. Déjalo en `''` para ocultar el ícono |
 | `stats` | Las 4 cifras que salen debajo del inicio |
 

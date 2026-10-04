@@ -22,8 +22,8 @@ const CONFIG = {
    mensajeWhatsapp: 'Hola Mundial Llantas, quiero cotizar:',
 
    /* --- Teléfono fijo / celular para llamar ------------------------------ */
-   telefono: '+57 320 325 8615',      // como se muestra en pantalla
-   telefonoLink: '+573203258615',     // como lo marca el celular
+   telefono: '+57 312 532 2147',      // como se muestra en pantalla
+   telefonoLink: '+573125322147',     // como lo marca el celular
 
    /* --- Correo (opcional, se muestra en Contacto) ------------------------ */
    correo: 'contacto@mundialllantas.com',
@@ -35,6 +35,11 @@ const CONFIG = {
 
    /* Link "Cómo llegar". Pega aquí el enlace de Google Maps del local.     */
    mapa: 'https://maps.app.goo.gl/G6HTPGJjXFQN1ooq7',
+
+   /* Coordenadas del local para el mapa de la sección Contacto
+      (latitud,longitud). En Google Maps: clic derecho sobre el local
+      y copia los números que aparecen arriba del menú.                 */
+   coordenadas: '1.6153153,-75.6102699',
 
    /* --- Redes sociales (deja '' vacío para ocultar el ícono) ------------- */
    instagram: 'https://instagram.com/',
